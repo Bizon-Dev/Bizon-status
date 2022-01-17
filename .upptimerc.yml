@@ -5,8 +5,14 @@ user-agent: Hype3808
 sites:
   - name: Bizon Website
     url: https://bizonbot.eu.org
+    expectedStatusCodes:
+      - 200
+      - 503
   - name: Bizon URL Shortener
     url: https://url.bizonbot.eu.org
+    expectedStatusCodes:
+      - 200
+      - 503
   - name: Bizon
     check: "tcp-ping"
     url: 144.126.130.19
