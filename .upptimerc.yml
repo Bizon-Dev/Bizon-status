@@ -23,7 +23,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /Bizon-status
   logoUrl: https://cdn.discordapp.com/attachments/903538311468023808/932222900801527848/Bizon-website.png
-  icon: https://cdn.discordapp.com/attachments/903538311468023808/932222900801527848/Bizon-website.png
+  favicon: https://cdn.discordapp.com/attachments/903538311468023808/932222900801527848/Bizon-website.png
   name: Bizon Status
   url: https://bizonbot.eu.org
   introTitle: "Bizon | Status"
