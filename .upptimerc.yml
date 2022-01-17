@@ -28,7 +28,7 @@ status-website:
   url: https://bizonbot.eu.org
   introTitle: "Bizon | Status"
   theme: ocean
-  cname: upptime.js.org
+  cname: status.bizonbot.eu.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
