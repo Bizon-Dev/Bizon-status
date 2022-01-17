@@ -29,6 +29,9 @@ status-website:
   introTitle: "Bizon | Status"
   theme: ocean
   cname: status.bizonbot.eu.org
+  
+i18n:
+  footer: Powered by [Upptime](https://upptime.js.org)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
