@@ -3,6 +3,18 @@ owner: Bizon-Dev # Your GitHub organization or username, where this repository l
 repo: Bizon-status # The name of this repository
 user-agent: Hype3808
 sites:
+  - name: Bizon
+    check: "tcp-ping"
+    url: 144.126.130.19
+    port: 10000
+  - name: Lavalink MAIN
+    check: "tcp-ping"
+    url: usfr2.forcehost.net
+    port: 25574
+  - name: Lavalink BACKUP
+    check: "tcp-ping"
+    url: us1.coralcloud.co.uk
+    port: 4000
   - name: Bizon Website
     url: https://bizonbot.eu.org
     expectedStatusCodes:
@@ -13,10 +25,6 @@ sites:
     expectedStatusCodes:
       - 200
       - 503
-  - name: Bizon
-    check: "tcp-ping"
-    url: 144.126.130.19
-    port: 10000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
