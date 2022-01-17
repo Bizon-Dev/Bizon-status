@@ -21,13 +21,14 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  baseUrl: /Bizon-status
+  # baseUrl: /Bizon-status
   logoUrl: https://cdn.discordapp.com/attachments/903538311468023808/932222900801527848/Bizon-website.png
   favicon: https://cdn.discordapp.com/attachments/903538311468023808/932222900801527848/Bizon-website.png
   name: Bizon Status
   url: https://bizonbot.eu.org
   introTitle: "Bizon | Status"
   theme: ocean
+  cname: upptime.js.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
