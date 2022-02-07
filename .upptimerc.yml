@@ -7,14 +7,20 @@ sites:
     check: "tcp-ping"
     url: 144.126.130.19
     port: 10000
+    expectedStatusCodes:
+      - 200
   - name: Lavalink MAIN
     check: "tcp-ping"
     url: usfr2.forcehost.net
     port: 25574
+    expectedStatusCodes:
+      - 200
   - name: Lavalink BACKUP
     check: "tcp-ping"
     url: us1.coralcloud.co.uk
     port: 4000
+    expectedStatusCodes:
+      - 200
   - name: Bizon Website
     url: https://bizonbot.eu.org
     expectedStatusCodes:
