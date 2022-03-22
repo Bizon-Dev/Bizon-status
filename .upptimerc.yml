@@ -5,8 +5,8 @@ user-agent: Hype3808
 sites:
   - name: Bizon
     check: "tcp-ping"
-    url: 144.126.130.19
-    port: 10000
+    url: pt-us-ny01.pyrohost.cloud
+    port: 10013
     expectedStatusCodes:
       - 200
   - name: Lavalink MAIN
