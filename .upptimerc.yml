@@ -17,8 +17,10 @@ sites:
     port: 10310
   - name: Bizon Website
     url: https://bizonbot.eu.org
+    method: GET
   - name: Bizon URL Shortener
     url: https://url.bizonbot.eu.org
+    method: GET
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -34,8 +36,6 @@ status-website:
   
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
-  
-user-agent: hype3808
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
