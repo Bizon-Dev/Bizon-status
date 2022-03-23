@@ -34,7 +34,8 @@ status-website:
   
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
+  
+user-agent: hype3808
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-user-agent: bizon-dev
