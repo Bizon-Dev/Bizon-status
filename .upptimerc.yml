@@ -7,30 +7,18 @@ sites:
     check: "tcp-ping"
     url: pt-us-ny01.pyrohost.cloud
     port: 10013
-    expectedStatusCodes:
-      - 200
   - name: Lavalink MAIN
     check: "tcp-ping"
     url: usfr2.forcehost.net
     port: 25574
-    expectedStatusCodes:
-      - 200
   - name: Lavalink BACKUP
     check: "tcp-ping"
-    url: us1.coralcloud.co.uk
-    port: 4000
-    expectedStatusCodes:
-      - 200
+    url: 51.161.130.134
+    port: 10310
   - name: Bizon Website
     url: https://bizonbot.eu.org
-    expectedStatusCodes:
-      - 200
-      - 503
   - name: Bizon URL Shortener
     url: https://url.bizonbot.eu.org
-    expectedStatusCodes:
-      - 200
-      - 503
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
