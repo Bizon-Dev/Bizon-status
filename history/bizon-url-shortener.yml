@@ -1,7 +1,7 @@
 url: https://url.bizonbot.eu.org
 status: down
-code: 403
-responseTime: 135
-lastUpdated: 2022-03-30T23:16:31.435Z
+code: 503
+responseTime: 203
+lastUpdated: 2022-03-31T23:17:35.953Z
 startTime: Sun Jan 16 2022 23:58:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
